@@ -2,6 +2,7 @@
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
+DOMAIN-SUFFIX,google.com,Proxy
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
@@ -29,3 +30,8 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
+IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+
+#端口
+DST-PORT,7895,REJECT
+DST-PORT,7892,REJECT
